@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!-- CUSOTM CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Carrousel</title>
@@ -11,29 +13,29 @@
 <body>
     <div class="carousel">
         <button class="carousel__button carousel__button--left">
-            <img src="img/left.jpg" alt="">
+            <i class="fas fa-chevron-left"></i>
         </button>
-
+        
         <div class="carousel__track-container">
             <ul class="carousel__track">
                 <li class="carousel__slide">
-                    <img src="img/slide-1.jpg" alt="">
+                    <img class="carousel__image" src="img/slide-1.jpg" alt="">
                 </li>
                 <li class="carousel__slide">
-                    <img src="img/slide-2.jpg" alt="">
+                    <img class="carousel__image" src="img/slide-2.jpg" alt="">
                 </li>
                 <li class="carousel__slide">
-                    <img src="img/slide-3.jpg" alt="">
+                    <img class="carousel__image" src="img/slide-3.jpg" alt="">
                 </li>
             </ul>
         </div>
-
+        
         <button class="carousel__button carousel__button--right">
-            <img src="img/right.jpg" alt="">
+            <i class="fas fa-chevron-right"></i>
         </button>
 
         <div class="carousel__nav">
-            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator current_slide"></button>
             <button class="carousel__indicator"></button>
             <button class="carousel__indicator"></button>
         </div>
